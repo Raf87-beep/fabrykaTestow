@@ -16,7 +16,7 @@ if nazwisko == 'Bobowsky' and wiek == 31:
 else:
     print('to nie ty')
 
-if imie in ['Bob','Krzysztof'] and wiek == 30:
+if imie in ['Bob', 'Krzysztof'] and wiek == 30:
     print('Czesc Bob, masz 30 lat')
 else:
     print('to nie ty')

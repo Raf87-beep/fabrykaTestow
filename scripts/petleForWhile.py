@@ -21,8 +21,8 @@ licznik2 = 0
 while True:
     print(licznik2)
     licznik2 += 1
-#     if licznik2 >= 5:
-#         break
+    if licznik2 >= 5:
+      break
 
 for x in range(20):
     if x % 2 == 0:
