@@ -14,10 +14,6 @@ element = driver.find_element_by_xpath('//*[@id="content"]/div/div/div/div/div/d
 
 driver.execute_script("arguments[0].scrollIntoView(true);", element)
 
-# natomiast robiąc sposobem poniżej - ucina początek
-# actions = ActionChains(driver)
-# actions.move_to_element(element).perform()
-
 driver.save_screenshot('KimJestTwojInstruktor.png')
 
 driver.quit()
